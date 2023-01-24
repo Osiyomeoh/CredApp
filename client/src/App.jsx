@@ -10,6 +10,7 @@ import Web3 from 'web3'
 import  TestToken from '../src/utils/TestToken.json'
 import  CredToken from '../src/utils/CredToken.json'
 import  TokenFarm from '../src/utils/TokenFarm.json'
+import { TransactionProvider } from "./context/TransactionContext";
 
 class App extends Component {
  
@@ -149,7 +150,8 @@ class App extends Component {
 
     return (
       <div>
-        <Navbar  />
+        <TransactionProvider> <Navbar  /></TransactionProvider>
+       
         <Services/>
         <div className="container-fluid mt-1">
           <div className="row">

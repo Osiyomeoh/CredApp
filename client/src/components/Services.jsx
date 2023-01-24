@@ -1,5 +1,5 @@
 import React from "react";
-import { SiSolidity } from "react-icons/Si";
+// import { SiSolidity } from "react-icons/Si";
 import { BsSpeedometer2} from "react-icons/bs";
 import { RiHeart2Fill } from "react-icons/ri";
 import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
@@ -42,7 +42,7 @@ const Services = () => (
         <ServiceCard
           color="bg-[#8945F8]"
           title="We are Reliable Trustworthy"
-          icon={<SiSolidity fontSize={21} className="text-white" />}
+          icon={< RiHeart2Fill fontSize={21} className="text-white" />}
           subtitle="Credence App brings you speed, trust and reliability"
         />
         <ServiceCard

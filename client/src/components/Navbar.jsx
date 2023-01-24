@@ -15,22 +15,21 @@ const NavbarItem = ({ title, classProps }) => {
 
 const Navbar = () => {
  
-  //const { connectWallet } = useContext(TransactionContext);
+  const { connectWallet} = useContext(TransactionContext);
 
   const [toggleMenu, setToggleMenu] = useState(false)
     return (
         <nav className='navbar navbar-dark flex-top fixed-top-0 gradient-bg-main2 flex-md-nowrap shadow'>
           <div className="md:flex-[0.5]  ml-9 flex-initial justify-self-end items-center">
             <img src={logo} alt="logo" className='w-32  cursor-pointer'/>
-            </div>  
-            <ul className='text-dark md:flex hidden list-none flex-row justify-between items-center flex-initial'>
+            </div>              <ul className='text-dark md:flex hidden list-none flex-row justify-between items-center flex-initial'>
               {["Documentation", "About Us", "Customer care", "News","" , "  "].map((item, index) => (
                 <NavbarItem key={item + index} title={item} />
               ))}
             
-              { (<button
+              {(<button
                             type="button"
-                            // onClick={}
+                             onClick={connectWallet}
                             className="bg-[#32a852] py-2 px-7 ml-20 rounded-full cursor-pointer hover:bg-[#2546bd] "
                         >
                             <p className="text-white text-base font-semibold"> Connect Wallet  </p>
