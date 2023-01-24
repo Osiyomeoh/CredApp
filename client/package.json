@@ -9,8 +9,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@metamask/legacy-web3": "^2.0.0",
+    "@react-icons/all-files": "^4.1.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "bootstrap": "^5.2.3",
+    "ethers": "^5.7.2",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "moment": "2.29.4",
+    "nouislider": "15.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap-switch": "15.5.3",
+    "react-datetime": "3.1.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.1",
+    "reactstrap": "8.9.0",
+    "sass": "1.54.0",
+    "web3": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
