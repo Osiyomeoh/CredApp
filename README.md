@@ -11,6 +11,9 @@ Project Website Link
 https://credenceapp.affordableklass.com.ng/ <br>
 
 # Aknowledgement
+grandida Management
+jsmastery.pro
+udemy.com
 
 # Project Authors
 Samuel Osiyomeoh Samuel
