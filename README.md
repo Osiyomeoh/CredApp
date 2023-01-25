@@ -6,9 +6,12 @@ A Decentralized Finance Cryptocurrency Lending and investing Application that of
 Borrowers will be able to make request for loan using p2p lending deposit ether into a vault and use it as collateral to borrow a stable token that will be tied to a fixed fiat money such as the dollar, the amount that can be borrowed depends on the current value of ether at any point in time the user can return the token borrowed and collect the amount of ether stored in the vault. Lenders can also give their crypto asset for good return on investment.
 Project Snapshot
 ![Alt text](https://drive.google.com/uc?export=view&id=1YFGoOqDHW4ZFLmPND92ZefKV0FxMG_h1 "Optional title")
+<br>
+<br>
+<br>
 ![Alt text](https://drive.google.com/uc?export=view&id=1fRNLWJPWR5eoNcUtDFDmrCJ1Krh_Yhh7 "Optional title")<br>
 Project Website Link
-https://credenceapp.affordableklass.com.ng/ <br>
+https://credenceapp.affordableklass.com.ng/ <br><br>
 
 # Aknowledgement
 grandida Management
