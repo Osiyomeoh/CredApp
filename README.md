@@ -5,17 +5,22 @@
 A Decentralized Finance Cryptocurrency Lending and investing Application that offers a transparent, permissionless, and open-source financial service environment that will phase out loan apps as we know it in Nigeria. With the use of blockchain technology and smart contracts, Individuals can make interest on their crypto assets without having to deal with a third party like the banks.
 Borrowers will be able to make request for loan using p2p lending deposit ether into a vault and use it as collateral to borrow a stable token that will be tied to a fixed fiat money such as the dollar, the amount that can be borrowed depends on the current value of ether at any point in time the user can return the token borrowed and collect the amount of ether stored in the vault. Lenders can also give their crypto asset for good return on investment.
 Project Snapshot
-![Alt text](https://drive.google.com/uc?export=view&id=1YFGoOqDHW4ZFLmPND92ZefKV0FxMG_h1 "Optional title")
+![Alt text](https://drive.google.com/uc?export=view&id=1jyVIwOtZT8czVIVqwv2keEsahowQ1_tw "Optional title")
+
 <br>
+![Alt text](https://drive.google.com/uc?export=view&id=15vN_8bdC8ZqkBxqpwKXkzlKpSw8tYzm0 "Optional title")
+
 <br>
+
 <br>
-![Alt text](https://drive.google.com/uc?export=view&id=1fRNLWJPWR5eoNcUtDFDmrCJ1Krh_Yhh7 "Optional title")<br>
+
+![Alt text](https://drive.google.com/uc?export=view&id=1kiUWxDEshfULxsYOcDhIx6_-OB7Hh8pj "Optional title")<br>
 Project Website Link
-https://credenceapp.affordableklass.com.ng/ <br><br>
+https://heartfelt-scone-3e30a9.netlify.app// <br><br>
 
 # Aknowledgement
 grandida Management
-jsmastery.pro
+
 udemy.com
 
 # Project Authors
@@ -37,25 +42,25 @@ git clone with Github CLI     gh repo clone Osiyomeoh/CredApp <br>
 Running the frontend code
 
 ```sh
-1. npm install
+1.  navigate to client as the root directory and run this command npm install --force
 2. npm run start
 ```
 
 Running the smart contract
 
 ```sh
-1. cd contracts
+1. cd smart_contracts
 2. npm install
-3. npx hardhat run scripts/run.js
+3. truffle migrate --reset --network matic(polygon blockchain testnet was used)
 4. make sure you fill up the information in .env file
 ```
 
 This is how your .env file is suppose to look like. Remember to remove `<>` when placing your private and API keys.
 
 ```sh
-PRIVATE_KEY=<YOUR_PRIVATE_KEY_HERE>
-WEB3_API_KEY=<WEB3_API_KEY>
-WALLET_ADDRESS=<YOUR_WALLET_ADDRESS>
+DEPLOYER_SIGNER_PRIVATE_KEY=<YOUR_PRIVATE_KEY_HERE>
+INFURA_PROJECT_ID_MUMBAI=<API_KEY>
+
 ```
 
 
