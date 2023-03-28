@@ -8,15 +8,15 @@ Project Snapshot
 ![Alt text](https://drive.google.com/uc?export=view&id=1jyVIwOtZT8czVIVqwv2keEsahowQ1_tw "Optional title")
 
 <br>
-![Alt text](https://drive.google.com/uc?export=view&id=15vN_8bdC8ZqkBxqpwKXkzlKpSw8tYzm0 "Optional title")
 
+![Alt text](https://drive.google.com/uc?export=view&id=15vN_8bdC8ZqkBxqpwKXkzlKpSw8tYzm0 "Optional title")<br>
 <br>
 
 <br>
 
 ![Alt text](https://drive.google.com/uc?export=view&id=1kiUWxDEshfULxsYOcDhIx6_-OB7Hh8pj "Optional title")<br>
 Project Website Link
-https://heartfelt-scone-3e30a9.netlify.app// <br><br>
+https://genuine-bublanina-b991c3.netlify.app/// <br><br>
 
 # Aknowledgement
 grandida Management
